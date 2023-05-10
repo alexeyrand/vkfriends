@@ -1,0 +1,11 @@
+{% extends "friends/base.html" %}
+
+{% block content %}
+    <header>
+        <article class="hello"><h1>{{ fname }} {{ lname }}</h1><br></article><br>
+        <article>Информация о себе:</article><br>
+        <article>Возраст: {{ age }}</article><br>
+        <article>Ссылка на страницу: https/vkfriends/{{ username }}</article>
+    </header>
+
+{% endblock content %}
